@@ -18,6 +18,6 @@ output_file = output_dir / "ex_5_4-processed.csv"
 
 fd = np.loadtxt(input_file)
 
-fd = np.where(fd<0, 0, raw_data)
+fd = np.where(fd<0, 0, fd)
 
 np.savetxt(output_file, fd, fmt='%.2e')
