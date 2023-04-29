@@ -26,4 +26,4 @@ if __name__ == "__main__":
     raw_data -= er.mean()
     rddfgv=er.std()
     wed=er/rddfgv
-    np.savetxt(args.outfile, wsd, fmt='%.2e')
+    np.savetxt(args.outfile, wed, fmt='%.2e')
